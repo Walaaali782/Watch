@@ -1,0 +1,45 @@
+.carousel{
+  color: white;
+  height: 83vh;
+}
+.carousel-item {
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  position: relative;
+}
+
+.carousel-inner .carousel-item img{
+width: 300px;
+
+}
+
+.carousel-inner .carousel-item {
+padding: 3rem 4.88rem ;
+  }
+.carousel-inner .carousel-item .secimages{
+  padding: 100px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-inner .carousel-item .secimages .text{
+  padding-top: 25px;
+width: 50%;
+}
+.carousel-inner .carousel-item .secimages .text h2{
+  font-size: 1.7rem;
+  }
+  h4{
+    padding-top: 30px;
+  }
+/* =====================================
+  4- Responsive Design (media query)
+======================================== */

@@ -1,0 +1,54 @@
+
+
+.navbar{
+  background: linear-gradient(225deg, #a58852 0%, #000000 100%);
+  color:rgb(244 244 245);
+  border: none;
+}
+
+.navbar .container {
+  background-color:  #110e0eba;;
+  padding: 0.77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 40px #2323242a;
+  border: 2px solid  rgba(85, 85, 88, 0.4);
+  margin: 1rem auto;
+}
+.navbar .container h1 {
+font-size: 30px;
+color: #ffffff;
+font-weight: 500;
+}
+.navbar .container ul li a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 1.01rem;
+  font-weight: 500;
+}
+.navbar .container a {
+  color: rgb(244 244 245);
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  background-color: #ffffff;
+}
+
+  .navbar .container ul li a:hover {
+  color: #ffffff;
+  opacity: 1;
+  font-size: 1.1rem;
+}
+
+/* =====================================
+  4- Responsive Design (media query)
+======================================== */
+@media (max-width: 700px) {
+  header.flex nav {
+    display: none;
+  }
+
+  header button.menu {
+    display: block;
+  }
+}
